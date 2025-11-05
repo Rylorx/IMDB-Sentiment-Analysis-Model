@@ -1,0 +1,60 @@
+# --- Python / ML Basics ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+.env
+.venv/           # your virtual environment
+env/
+venv/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# --- Data / Models / Outputs ---
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+*.npz
+*.npy
+
+# --- Logs / Cache ---
+logs/
+*.log
+wandb/
+mlruns/
+tensorboard/
+*.event*
+
+# --- IDE / OS junk ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Build / Packaging ---
+dist/
+build/
+*.whl
+
+# --- Virtual environment / dependencies ---
+.venv/
+env/
+venv/
+pip-wheel-metadata/
